@@ -7,7 +7,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableCaching
-@EnableDiscoveryClient
 public class BackendApplication {
 
     public static void main(String[] args) {
