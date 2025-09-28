@@ -29,27 +29,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ env.AWS_REGION }}
 
-    - name: Build all backend modules
-      run: mvn clean install -f backend/pom.xml -DskipTests
-
-    - name: Build Auth Service
-      run: mvn clean package -pl service-auth -f backend/pom.xml -DskipTests
-
-    - name: Build Post Service
-      run: mvn clean package -pl service-post -f backend/pom.xml -DskipTests
-
-    - name: Build Message Service
-      run: mvn clean package -pl service-message -f backend/pom.xml -DskipTests
-
-    - name: Build Profile Service
-      run: mvn clean package -pl service-profile -f backend/pom.xml -DskipTests
-
-    - name: Build API Gateway
-      run: mvn clean package -pl apigateway -f backend/pom.xml -DskipTests
-
-    - name: Build Euruka Server
-      run: mvn clean package -pl eurukaserver -f backend/pom.xml -DskipTests
-
     # Login to ECR
     - name: Login to Amazon ECR
       run: |

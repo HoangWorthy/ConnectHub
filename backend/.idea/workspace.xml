@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48c506a8-9c41-4ce3-81e9-e1f659efc59a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/apigateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurukaserver/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurukaserver/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurukaserver/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eurukaserver/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-auth/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-auth/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-auth/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-auth/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-message/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-message/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-message/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-message/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-message/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-message/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-post/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-post/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-post/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-post/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-post/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-post/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-profile/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-profile/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-profile/README.Docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-profile/compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-profile/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-profile/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/src/main/java/hoangworthy/project/microservices/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/src/main/java/hoangworthy/project/microservices/utils/JwtUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared-library/src/main/java/hoangworthy/project/microservices/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../compose.yaml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="33KGnfaO7abDLeilLqLC8ODiPAF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/WIN11/Documents/Personal Projects/ConnectHub/backend",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48c506a8-9c41-4ce3-81e9-e1f659efc59a" name="Changes" comment="" />
+      <created>1759058518718</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759058518718</updated>
+      <workItem from="1759058519928" duration="135000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
