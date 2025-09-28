@@ -1,6 +1,6 @@
 package hoangworthy.project.microservices.apigateway.configs;
 
-import hoangworthy.project.microservices.utils.JwtUtil;
+import hoangworthy.project.microservices.apigateway.utils.JwtUtil;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

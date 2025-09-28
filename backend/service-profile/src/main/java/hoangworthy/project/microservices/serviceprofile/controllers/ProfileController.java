@@ -6,7 +6,7 @@ import hoangworthy.project.microservices.serviceprofile.dtos.ProfileDtoResponse;
 import hoangworthy.project.microservices.serviceprofile.dtos.ProfileResponse;
 import hoangworthy.project.microservices.serviceprofile.services.interfaces.ProfileService;
 import hoangworthy.project.microservices.serviceprofile.services.interfaces.S3Service;
-import hoangworthy.project.microservices.utils.JwtUserDetails;
+import hoangworthy.project.microservices.serviceprofile.utils.JwtUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

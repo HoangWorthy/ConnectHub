@@ -1,7 +1,7 @@
 package hoangworthy.project.microservices.apigateway.filters;
 
-import hoangworthy.project.microservices.utils.JwtUserDetails;
-import hoangworthy.project.microservices.utils.JwtUtil;
+import hoangworthy.project.microservices.apigateway.utils.JwtUserDetails;
+import hoangworthy.project.microservices.apigateway.utils.JwtUtil;
 import io.jsonwebtoken.Claims;
 import org.apache.http.HttpHeaders;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;

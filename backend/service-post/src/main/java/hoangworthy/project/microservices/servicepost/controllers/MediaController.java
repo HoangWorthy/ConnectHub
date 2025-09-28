@@ -5,7 +5,7 @@ import hoangworthy.project.microservices.servicepost.dtos.PresignRequest;
 import hoangworthy.project.microservices.servicepost.dtos.PresignResponse;
 import hoangworthy.project.microservices.servicepost.services.interfaces.PostService;
 import hoangworthy.project.microservices.servicepost.services.interfaces.S3Service;
-import hoangworthy.project.microservices.utils.JwtUserDetails;
+import hoangworthy.project.microservices.servicepost.utils.JwtUserDetails;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

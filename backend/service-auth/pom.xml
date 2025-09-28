@@ -128,11 +128,8 @@
             <version>3.3.9</version>
         </dependency>
         <dependency>
-            <groupId>hoangworthy.project.microservices</groupId>
-            <artifactId>shared-library</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/libs/shared-library-1.0-SNAPSHOT.jar</systemPath>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
         </dependency>
     </dependencies>
 

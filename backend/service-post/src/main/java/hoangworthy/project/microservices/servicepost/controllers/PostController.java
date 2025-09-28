@@ -2,7 +2,7 @@ package hoangworthy.project.microservices.servicepost.controllers;
 
 import hoangworthy.project.microservices.servicepost.dtos.PostDto;
 import hoangworthy.project.microservices.servicepost.services.interfaces.PostService;
-import hoangworthy.project.microservices.utils.JwtUserDetails;
+import hoangworthy.project.microservices.servicepost.utils.JwtUserDetails;
 import org.apache.coyote.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

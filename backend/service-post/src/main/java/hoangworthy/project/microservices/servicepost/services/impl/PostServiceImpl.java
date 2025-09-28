@@ -6,7 +6,6 @@ import hoangworthy.project.microservices.servicepost.entities.*;
 import hoangworthy.project.microservices.servicepost.repositories.*;
 import hoangworthy.project.microservices.servicepost.services.interfaces.PostService;
 import hoangworthy.project.microservices.servicepost.services.interfaces.S3Service;
-import hoangworthy.project.microservices.utils.JwtUserDetails;
 import jakarta.transaction.Transactional;
 import org.apache.kafka.common.errors.ResourceNotFoundException;
 import org.modelmapper.ModelMapper;

@@ -5,7 +5,7 @@ import hoangworthy.project.microservices.servicemessage.entities.ChatMessage;
 import hoangworthy.project.microservices.servicemessage.entities.Conversation;
 import hoangworthy.project.microservices.servicemessage.repositories.ConversationRepository;
 import hoangworthy.project.microservices.servicemessage.repositories.MessageRepository;
-import hoangworthy.project.microservices.utils.JwtUserDetails;
+import hoangworthy.project.microservices.servicemessage.utils.JwtUserDetails;
 import jakarta.transaction.Transactional;
 import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;

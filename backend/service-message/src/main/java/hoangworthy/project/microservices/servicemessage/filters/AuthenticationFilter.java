@@ -1,6 +1,6 @@
 package hoangworthy.project.microservices.servicemessage.filters;
 
-import hoangworthy.project.microservices.utils.JwtUserDetails;
+import hoangworthy.project.microservices.servicemessage.utils.JwtUserDetails;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

@@ -1,6 +1,6 @@
 package hoangworthy.project.microservices.serviceauth.configs;
 
-import hoangworthy.project.microservices.utils.JwtUtil;
+import hoangworthy.project.microservices.serviceauth.utils.JwtUtil;
 import io.jsonwebtoken.security.Keys;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
