@@ -31,22 +31,22 @@ jobs:
 
     # Build JARs for each module
     - name: Build Auth Service
-      run: mvn clean package -pl backend/service-auth
+      run: mvn clean package -pl service-auth -f backend/pom.xml
 
     - name: Build Post Service
-      run: mvn clean package -pl backend/service-post
+      run: mvn clean package -pl service-post -f backend/pom.xml
 
     - name: Build Message Service
-      run: mvn clean package -pl backend/service-message
-    
+      run: mvn clean package -pl service-message -f backend/pom.xml
+
     - name: Build Profile Service
-      run: mvn clean package -pl backend/service-profile
-    
+      run: mvn clean package -pl service-profile -f backend/pom.xml
+
     - name: Build API Gateway
-      run: mvn clean package -pl backend/apigateway
-    
+      run: mvn clean package -pl apigateway -f backend/pom.xml
+
     - name: Build Euruka Server
-      run: mvn clean package -pl backend/eurukaserver
+      run: mvn clean package -pl eurukaserver -f backend/pom.xml
 
     # Login to ECR
     - name: Login to Amazon ECR
