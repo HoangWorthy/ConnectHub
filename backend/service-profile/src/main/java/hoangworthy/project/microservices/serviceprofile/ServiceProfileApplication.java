@@ -7,7 +7,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.kafka.support.converter.JsonMessageConverter;
 
 @SpringBootApplication
-@EnableDiscoveryClient
 public class ServiceProfileApplication {
 
     public static void main(String[] args) {

@@ -80,9 +80,9 @@ jobs:
             docker tag profile-service:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/profile-service:latest
             docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/profile-service:latest
     
-    - name: Build and Push Euruka Server
-      run: |
-        docker build -t euruka-server:latest ./backend/eurukaserver
-        docker tag euruka-server:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/euruka-server:latest
-        docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/euruka-server:latest
+    # - name: Build and Push Euruka Server
+    #   run: |
+    #     docker build -t euruka-server:latest ./backend/eurukaserver
+    #     docker tag euruka-server:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/euruka-server:latest
+    #     docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/euruka-server:latest
     
