@@ -35,6 +35,12 @@ jobs:
         aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com
 
     # Build & Push Docker Images
+    - name: Build and Push API Gateway
+      run: |
+        docker build -t api-gateway:latest ./backend/apigateway
+        docker tag api-gateway:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/api-gateway:latest
+        docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/api-gateway:latest
+
     - name: Build and Push Auth Service
       run: |
         docker build -t auth-service:latest ./backend/service-auth
@@ -58,12 +64,6 @@ jobs:
         docker build -t profile-service:latest ./backend/service-profile
             docker tag profile-service:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/profile-service:latest
             docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/profile-service:latest
-    
-    - name: Build and Push API Gateway
-      run: |
-        docker build -t api-gateway:latest ./backend/apigateway
-        docker tag api-gateway:latest $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/api-gateway:latest
-        docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/api-gateway:latest
     
     - name: Build and Push Euruka Server
       run: |
