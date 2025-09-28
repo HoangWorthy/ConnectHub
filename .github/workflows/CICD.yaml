@@ -29,7 +29,9 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: ${{ env.AWS_REGION }}
 
-    # Build JARs for each module
+    - name: Build all backend modules
+      run: mvn clean package -f backend/pom.xml -DskipTests
+
     - name: Build Auth Service
       run: mvn clean package -pl service-auth -f backend/pom.xml
 
