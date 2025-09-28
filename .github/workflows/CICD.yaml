@@ -16,7 +16,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Set up JDK 17
+    - name: Set up JDK 21
       uses: actions/setup-java@v3
       with:
         distribution: temurin
@@ -30,7 +30,7 @@ jobs:
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Build all backend modules
-      run: mvn clean package -f backend/pom.xml -DskipTests
+      run: mvn clean install -f backend/pom.xml -DskipTests
 
     - name: Build Auth Service
       run: mvn clean package -pl service-auth -f backend/pom.xml
