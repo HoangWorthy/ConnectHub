@@ -6,7 +6,7 @@
         <groupId>hoangworthy.project.microservices</groupId>
         <artifactId>backend</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <artifactId>service-post</artifactId>
     <version>0.0.1-SNAPSHOT</version>
